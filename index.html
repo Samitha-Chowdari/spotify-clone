@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <!--Side Bar Section-->
+        <div class="sidebar">
+            <!--Nav bar design-Home, Search-->
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <!--Library section-->
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="library_icon.png" alt="lib">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="card1">
+                    <p class="para1">Create your first playlist</p>
+                    <p class="para2">It's easy, we'll help you</p>
+                    <button class="badge badge-lib">Create playlist</button>
+                </div>
+                <div class="card2">
+                    <p class="para1">Let's find some podcasts to follow</p>
+                    <p class="para2">We'll keep you updated on new episodes</p>
+                    <button class="badge badge-lib">Browse podcasts</button>
+                </div>
+            </div>
+        </div>
+        <!--Main Content Section-->
+        <div class="main-content">
+            <!--Sticky Nav Bar design-->
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="backward_icon.png">
+                    <img src="forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge hide">Explore Premium</button>
+                    <button class="badge install"><i class="fa-regular fa-circle-down"></i>Install App</button>
+                    <i class="fa-regular fa-user user"></i>
+                </div>
+            </div>
+            <!--Cards design in Main Content-->
+            <!--Recently Played section-->
+            <div class="cards-header">
+                <h2>Recently played</h2>
+                <a href="#">show all</a>
+            </div>
+            <div class="card-item">
+                <img src="region_in_default (1).jpg" class="card-img">
+                <p class="card-title">Top 50 - India</p>
+                <p class="card-text">Your daily update of the most played tracks right...</p>
+            </div>
+            <!--Popular Artists Section-->
+            <div class="cards-header">
+                <h2>Popular Artists</h2>
+                <a href="#">show all</a>
+            </div>
+            <div class="card-container">
+                <div class="card-item">
+                    <img src="pritham.jpg" class="artist-img">
+                    <p class="card-title">Pritham</p>
+                    <p class="card-text">Artist</p>
+                </div>
+                <div class="card-item">
+                    <img src="arjith.jpg" class="artist-img">
+                    <p class="card-title">Arjith Singh</p>
+                    <p class="card-text">Artist</p>
+                </div>
+                <div class="card-item">
+                    <img src="arrahman.jpg" class="artist-img">
+                    <p class="card-title">A.R. Rahman</p>
+                    <p class="card-text">Artist</p>
+                </div>
+                <div class="card-item">
+                    <img src="sachin.jpg" class="artist-img">
+                    <p class="card-title">Sachin-Jigar</p>
+                    <p class="card-text">Artist</p>
+                </div>
+            </div>
+            <!--Popular Radio Section-->
+            <div class="cards-header">
+                <h2>Popular radio</h2>
+                <a href="#">show all</a>
+            </div>
+            <div class="card-container">
+                <div class="card-item radio-item">
+                    <img src="en.jpg" class="radio-img">
+                    <p class="card-text">With Vishal Mishra, Atif Aslam, Sachin-Jigar and...</p>
+                </div>
+                <div class="card-item radio-item">
+                    <img src="en (1).jpg" class="radio-img">
+                    <p class="card-text">With Vishal Mishra, A.R. Rahman, Atif Aslam and...</p>
+                </div>
+                <div class="card-item radio-item">
+                    <img src="en (2).jpg" class="radio-img">
+
+                    <p class="card-text">With Karan Aujla, Shubh, Siddu Moose Wala and...</p>
+                </div>
+                <div class="card-item radio-item">
+                    <img src="en (3).jpg" class="radio-img">
+                    <p class="card-text">With Karan Aujla, Arjan Dhillon, Varinder Brar an...</p>
+                </div>
+            </div>
+            <!--Featured Charts Section-->
+            <div class="cards-header">
+                <h2>Featured Charts</h2>
+                <a href="#">show all</a>
+            </div>
+            <div class="card-container">
+                <div class="card-item radio-item">
+                    <img src="region_global_default.jpg" class="radio-img">
+                    <p class="card-text">Your weekly update of the most played tracks right ...</p>
+                </div>
+                <div class="card-item radio-item">
+                    <img src="region_in_default.jpg" class="radio-img">
+                    <p class="card-text">Your weekly update of the most played tracks right ...</p>
+                </div>
+                <div class="card-item radio-item">
+                    <img src="region_in_default (1).jpg" class="radio-img">
+                    <p class="card-text">Your weekly update of the most played tracks right ...</p>
+                </div>
+                <div class="card-item radio-item">
+                    <img src="card1img.jpeg" class="radio-img">
+                    <p class="card-text">Your weekly update of the most played tracks right ...</p>
+                </div>
+            </div>
+            <!--India's Best Section-->
+            <div class="cards-header">
+                <h2>india's Best</h2>
+                <a href="#">show all</a>
+            </div>
+            <div class="card-container">
+                <div class="card-item radio-item">
+                    <img src="hpop.jpg" class="radio-img">
+                    <p class="card-text">Hottest tracks from your favourite l-Pop Icons. Cove...</p>
+                </div>
+                <div class="card-item radio-item">
+                    <img src="punjabi.jpg" class="radio-img">
+                    <p class="card-text">Ultimate 101 Punjabi Hits with Shubh</p>
+                </div>
+                <div class="card-item radio-item">
+                    <img src="kollywoodcrem.jpg" class="radio-img">
+
+                    <p class="card-text">Finest collection of Tamil music from the past 10 y...</p>
+                </div>
+                <div class="card-item radio-item">
+                    <img src="tollywoodpearls.jpg" class="radio-img">
+                    <p class="card-text">The finest set of Telugu music from the past 10 yea...</p>
+                </div>
+            </div>
+            <!--Ending of Main Content-->
+            <div class="bottom-section">
+                <!--first footer design-->
+                <div class="footer1">
+                    <div class="heading">
+                        <h5>Company</h5>
+                        <div class="subheadings">
+                            <p>About</p>
+                            <p>Jobs</p>
+                            <p>For the Record</p>
+                        </div>
+                    </div>
+                    <div class="heading">
+                        <h5>Communities</h5>
+                        <div class="subheadings">
+                            <p>For Artists</p>
+                            <p>Developers</p>
+                            <p>Advertising</p>
+                            <p>Investors</p>
+                            <p>Vendors</p>
+                        </div>
+                    </div>
+                    <div class="heading">
+                        <h5>Useful links</h5>
+                        <div class="subheadings">
+                            <p>Support</p>
+                            <p>Free Mobile App</p>
+                        </div>
+                    </div>
+                    <div class="heading">
+                        <h5>Spotify Plans</h5>
+                        <div class="subheadings">
+                            <p>Premium Individual</p>
+                            <p>Premium Duo</p>
+                            <p>Premium Family</p>
+                            <p>Premium Student</p>
+                            <p>Spotify Free</p>
+                        </div>
+                    </div>
+                    <div class="heading">
+                        <ul>
+                          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </ul>
+                      </div>
+                </div>
+                <!--horizantal line design-->
+                <hr class="footer-hr">
+                <!--second footer design-->
+                <div class="footer2">
+                    <span class="first">
+                        <a href="#">Legal</a>
+                        <a href="#">Safety & Privacy Center</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Cookies</a>
+                        <a href="#">About Ads</a>
+                        <a href="#">Accessibility</a>
+                    </span>
+                    <span class="second">
+                        <p>&copy; 2025 Spotify AB</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!--Music Player Section-->
+        <div class="music-player">
+            <!--Currently Playing Album-->
+            <div class="album">
+                <img src="mahabharatha.jpg">
+                <div class="alb">
+                    <a href="#" class="name">Mahabharata Episode 1: Beginnings</a>
+                    <a href="#" class="subname">The Stories of Mahabharata</a>
+                </div>
+                <a href="#"><i class="fa-solid fa-circle-plus"></i></a>
+            </div>
+            <!--Player design-->
+            <div class="player">
+                <div class="player-icons">
+                    <img src="player_icon1.png">
+                    <img src="player_icon2.png">
+                    <img src="player_icon3.png" class="playericon3">
+                    <img src="player_icon4.png">
+                    <img src="player_icon5.png">
+                </div>
+                <div class="player-line">
+                    <label for="play-range">0:00</label>
+                    <input type="range" class="progressline" min="0" max="100" id="play-range">
+                    <label for="play-range">23:24</label>
+                </div>
+            </div>
+            <!--Adjustments section-->
+            <div class="volume">
+                <a href="#"><i class="fas fa-list"></i></a>
+                <a href="#"><i class="fas fa-desktop"></i></a>
+                <a href="#"><i class="fas fa-volume-up"></i></a>
+                <input type="range" class="progressline volume-slider">
+                <a href="#"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
