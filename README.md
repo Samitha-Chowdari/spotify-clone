@@ -11,10 +11,10 @@ This is a simple frontend clone of the Spotify homepage using **HTML** and **CSS
 - HTML
 - CSS
 
-## Live Demo
+## 🔥 Live Demo
 
 You can view the live project on GitHub Pages:  
-[SpotifyCloneDemo](https://username.github.io/spotify-clone)
+[SpotifyCloneDemo](https://samitha-chowdari.github.io/spotify-clone/)
 
 ## 📌 Note
 This is a static project made just for learning and practice. No backend or actual music streaming.
